@@ -6,6 +6,13 @@
 
 > **Enterprise-grade market intelligence system analyzing 10,298+ mobile apps and D2C marketing campaigns with AI-powered insights and 90-94% confidence scoring.**
 
+
+
+<img width="1362" height="801" alt="diagram-export-9-25-2025-6_06_03-PM" src="https://github.com/user-attachments/assets/20ed1be6-0109-4339-b34f-47d32e0671f0" />
+
+
+
+
 ## 📊 Project Overview
 
 Built a comprehensive marketing intelligence platform that processes cross-platform app data and D2C marketing campaigns to generate strategic business insights using AI/ML techniques.
@@ -51,7 +58,7 @@ openpyxl>=3.1.2        # Excel file handling
 ### 1. **Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-market-intelligence
+git clone https://github.com/AyaanShaheer/AI-Powered-Market-Intelligence-System
 cd ai-market-intelligence
 
 # Create virtual environment
@@ -315,9 +322,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact & Support
 
-**Project Maintainer**: [Your Name](mailto:your.email@example.com)
-**LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-**Portfolio**: [Your Portfolio Website](https://yourwebsite.com)
+**Project Maintainer**: [Ayaan Shaheer](mailto:ayaan.shaheer.dev@gmail.com)
+**LinkedIn**:[(https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/ayaan-shaheer-74a087230/))
+**Portfolio**: [Portfolio](https://chatprofolio.vercel.app/profile/ayaanshaheer)
 
 ---
 
