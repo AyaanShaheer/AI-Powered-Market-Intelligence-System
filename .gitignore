@@ -1,0 +1,50 @@
+# AI Market Intelligence - Lightweight .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data & Logs
+*.log
+*.tmp
+*.temp
+cache/
+temp_data/
+
+# OS Files  
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+api_keys.txt
+secrets.json
+
+# Jupyter
+.ipynb_checkpoints
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Keep essential files
+!README.md
+!requirements.txt
+!LICENSE
+!data/processed/
+!reports/

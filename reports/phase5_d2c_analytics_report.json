@@ -1,0 +1,246 @@
+{
+  "phase5_execution": {
+    "timestamp": "2025-09-26T08:05:08.486673",
+    "analysis_type": "D2C Marketing Analytics",
+    "campaigns_analyzed": 50,
+    "channels_analyzed": 4,
+    "categories_analyzed": 5
+  },
+  "overall_metrics": {
+    "total_spend": 53564.64,
+    "total_revenue": 232276.19,
+    "overall_roas": 4.3363717183574835,
+    "total_impressions": 1370647,
+    "total_clicks": 145560,
+    "total_installs": 39343,
+    "avg_conversion_rate": 2.5789999999999997
+  },
+  "analytics_insights": {
+    "channel_performance": {
+      "Instagram Influencer": {
+        "campaigns": 13,
+        "total_spend": 12494.050000000001,
+        "total_revenue": 73824.23999999999,
+        "roas": 5.908751765840539,
+        "ctr": 9.16025272143097,
+        "cpa": 1.3415709223665844,
+        "cpc": 0.40879658410496356,
+        "total_installs": "9313",
+        "purchase_rate": 85.09610222269946,
+        "avg_conversion_rate": 2.8015384615384615
+      },
+      "Organic Search": {
+        "campaigns": 16,
+        "total_spend": 16538.51,
+        "total_revenue": 51781.35,
+        "roas": 3.130956174407489,
+        "ctr": 9.10077542311774,
+        "cpa": 1.2763165611977156,
+        "cpc": 0.3359915080348617,
+        "total_installs": "12958",
+        "purchase_rate": 83.63945053248958,
+        "avg_conversion_rate": 2.551875
+      },
+      "Meta Ads": {
+        "campaigns": 10,
+        "total_spend": 8782.57,
+        "total_revenue": 49629.65,
+        "roas": 5.65092564021693,
+        "ctr": 13.860968222235623,
+        "cpa": 1.0106524741081704,
+        "cpc": 0.29389853763009066,
+        "total_installs": "8690",
+        "purchase_rate": 63.613348676639816,
+        "avg_conversion_rate": 2.4170000000000003
+      },
+      "Google Ads": {
+        "campaigns": 11,
+        "total_spend": 15749.51,
+        "total_revenue": 57040.95,
+        "roas": 3.6217602960346067,
+        "ctr": 12.793449822130022,
+        "cpa": 1.8789680267239324,
+        "cpc": 0.43881502326488536,
+        "total_installs": "8382",
+        "purchase_rate": 94.03483655452159,
+        "avg_conversion_rate": 2.502727272727273
+      }
+    },
+    "category_performance": {
+      "Home Decor": {
+        "campaigns": 10,
+        "total_spend": 11344.700000000003,
+        "total_revenue": 64638.229999999996,
+        "roas": 5.697658818655405,
+        "ctr": 12.11258567233898,
+        "conversion_rate": 2.488,
+        "avg_search_volume": 31495.6,
+        "avg_seo_position": 27.0,
+        "total_installs": "10565"
+      },
+      "Astrology Services": {
+        "campaigns": 10,
+        "total_spend": 8484.880000000001,
+        "total_revenue": 42667.99,
+        "roas": 5.028708714796202,
+        "ctr": 11.575728326542736,
+        "conversion_rate": 2.579,
+        "avg_search_volume": 25647.1,
+        "avg_seo_position": 28.970000000000006,
+        "total_installs": "5896"
+      },
+      "Supplements": {
+        "campaigns": 12,
+        "total_spend": 15568.859999999999,
+        "total_revenue": 57603.02,
+        "roas": 3.6998868253680746,
+        "ctr": 10.252364086918913,
+        "conversion_rate": 2.2416666666666667,
+        "avg_search_volume": 24811.416666666668,
+        "avg_seo_position": 27.899999999999995,
+        "total_installs": "8025"
+      },
+      "Skin Care": {
+        "campaigns": 8,
+        "total_spend": 7650.76,
+        "total_revenue": 39096.92,
+        "roas": 5.110200816650894,
+        "ctr": 9.611508920527895,
+        "conversion_rate": 3.4612499999999997,
+        "avg_search_volume": 27059.0,
+        "avg_seo_position": 26.825000000000003,
+        "total_installs": "6484"
+      },
+      "Fitness Gear": {
+        "campaigns": 10,
+        "total_spend": 10515.44,
+        "total_revenue": 28270.03,
+        "roas": 2.6884305364302397,
+        "ctr": 9.821103478408622,
+        "conversion_rate": 2.3689999999999998,
+        "avg_search_volume": 28133.8,
+        "avg_seo_position": 24.380000000000003,
+        "total_installs": "8373"
+      }
+    },
+    "funnel_analysis": {
+      "overall": {
+        "impression_to_click": 10.619802181013783,
+        "click_to_install": 27.028716680406706,
+        "install_to_signup": 76.37699209516306,
+        "signup_to_purchase": 64.0121135478718,
+        "purchase_to_repeat": 67.26280218351963
+      }
+    },
+    "campaign_efficiency": {
+      "avg_roas": 6.831651257351638,
+      "avg_ctr": 14.703779802991166,
+      "avg_cpa": 2.7321223992624697,
+      "top_performing_campaigns": [
+        {
+          "campaign_id": "CAMP_048",
+          "channel": "Instagram Influencer",
+          "seo_category": "Home Decor",
+          "roas": 44.62055825473945,
+          "spend_usd": 209.94,
+          "revenue_usd": 9367.64
+        },
+        {
+          "campaign_id": "CAMP_044",
+          "channel": "Organic Search",
+          "seo_category": "Home Decor",
+          "roas": 28.47745294592896,
+          "spend_usd": 334.19,
+          "revenue_usd": 9516.88
+        },
+        {
+          "campaign_id": "CAMP_005",
+          "channel": "Instagram Influencer",
+          "seo_category": "Astrology Services",
+          "roas": 25.69955220196749,
+          "spend_usd": 283.61,
+          "revenue_usd": 7288.65
+        },
+        {
+          "campaign_id": "CAMP_016",
+          "channel": "Meta Ads",
+          "seo_category": "Fitness Gear",
+          "roas": 21.908952272023257,
+          "spend_usd": 419.67,
+          "revenue_usd": 9194.53
+        },
+        {
+          "campaign_id": "CAMP_042",
+          "channel": "Instagram Influencer",
+          "seo_category": "Astrology Services",
+          "roas": 14.708922981968875,
+          "spend_usd": 453.66,
+          "revenue_usd": 6672.85
+        }
+      ],
+      "highest_ctr_campaigns": [
+        {
+          "campaign_id": "CAMP_029",
+          "channel": "Organic Search",
+          "seo_category": "Home Decor",
+          "ctr": 70.24587014982713,
+          "clicks": 3657,
+          "impressions": 5206
+        },
+        {
+          "campaign_id": "CAMP_049",
+          "channel": "Google Ads",
+          "seo_category": "Astrology Services",
+          "ctr": 59.65163135317822,
+          "clicks": 4589,
+          "impressions": 7693
+        },
+        {
+          "campaign_id": "CAMP_039",
+          "channel": "Meta Ads",
+          "seo_category": "Supplements",
+          "ctr": 55.01647199760408,
+          "clicks": 3674,
+          "impressions": 6678
+        },
+        {
+          "campaign_id": "CAMP_020",
+          "channel": "Instagram Influencer",
+          "seo_category": "Skin Care",
+          "ctr": 36.247016706443915,
+          "clicks": 3645,
+          "impressions": 10056
+        },
+        {
+          "campaign_id": "CAMP_017",
+          "channel": "Organic Search",
+          "seo_category": "Home Decor",
+          "ctr": 31.18697150015659,
+          "clicks": 4979,
+          "impressions": 15965
+        }
+      ]
+    },
+    "strategic_insights": "**D2C MARKETING STRATEGIC INSIGHTS**\n*Based on analysis of 50 campaigns across 4 channels*\n\n**PERFORMANCE OVERVIEW:**\n- Total Marketing Spend: $53,564.64\n- Total Revenue Generated: $232,276.19\n- Overall ROAS: 4.34x\n- Average Conversion Rate: 2.58%\n\n**TOP PERFORMING SEGMENTS:**\n- Best Channel: Instagram Influencer (highest ROAS)\n- Best Category: Home Decor (highest revenue efficiency)\n- Strongest Funnel Stage: Click-to-Install conversion\n\n**STRATEGIC RECOMMENDATIONS:**\n\n1. **Channel Optimization**: Focus budget allocation on Instagram Influencer which shows superior ROAS performance\n2. **Category Expansion**: Scale Home Decor campaigns given strong market demand and conversion rates  \n3. **Funnel Improvement**: Optimize signup-to-purchase conversion rate (current bottleneck)\n4. **SEO Investment**: Categories with high search volume but poor SEO positioning need organic investment\n5. **Retention Focus**: Implement repeat purchase optimization for long-term customer value\n\n**BUDGET ALLOCATION STRATEGY:**\n- Increase spend in high-ROAS channels by 30-40%\n- Reduce spend in underperforming segments\n- Test new creative formats in top-performing categories\n- Implement retention campaigns for repeat purchase optimization\n\n**RISK FACTORS:**\n- High customer acquisition costs in some segments\n- Low repeat purchase rates indicate retention challenges\n- SEO position gaps in high-volume categories"
+  },
+  "data_summary": {
+    "channels": {
+      "Organic Search": 16,
+      "Instagram Influencer": 13,
+      "Google Ads": 11,
+      "Meta Ads": 10
+    },
+    "categories": {
+      "Supplements": 12,
+      "Home Decor": 10,
+      "Astrology Services": 10,
+      "Fitness Gear": 10,
+      "Skin Care": 8
+    },
+    "campaign_performance_distribution": {
+      "high_roas_campaigns": 33,
+      "medium_roas_campaigns": 6,
+      "low_roas_campaigns": 11
+    }
+  }
+}

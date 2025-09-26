@@ -1,0 +1,120 @@
+{
+  "pipeline_execution": {
+    "timestamp": "2025-09-26T00:29:40.965571",
+    "input_file": "googleplaystore.csv",
+    "output_files": [
+      "data/processed/googleplay_cleaned.csv",
+      "data/processed/googleplay_cleaned.json"
+    ]
+  },
+  "data_transformation": {
+    "original_shape": [
+      10841,
+      13
+    ],
+    "final_shape": [
+      9660,
+      13
+    ],
+    "duplicates_removed": 1181,
+    "columns_transformed": {
+      "reviews": "Reviews \u2192 review_count (handled M/k suffixes)",
+      "size": "Size \u2192 size_mb (normalized to MB)",
+      "installs": "Installs \u2192 installs (removed + and , symbols)",
+      "price": "Price \u2192 price_usd (removed $ symbol)",
+      "date": "Last Updated \u2192 last_updated (datetime format)"
+    }
+  },
+  "data_quality": {
+    "total_apps": 9660,
+    "missing_ratings": 1463,
+    "missing_ratings_pct": 15.144927536231883,
+    "free_apps": 8904,
+    "paid_apps": 754,
+    "categories": 34,
+    "avg_rating": 4.175088446992802,
+    "avg_reviews": 217020.83581780537,
+    "avg_size_mb": 20.40032838217304,
+    "rating_distribution": {
+      "4.3": 897,
+      "4.4": 894,
+      "4.5": 850,
+      "4.2": 812,
+      "4.6": 683,
+      "4.1": 623,
+      "4.0": 512,
+      "4.7": 440,
+      "3.9": 359,
+      "3.8": 286,
+      "5.0": 271,
+      "3.7": 223,
+      "4.8": 220,
+      "3.6": 168,
+      "3.5": 156,
+      "3.4": 126,
+      "3.3": 100,
+      "4.9": 85,
+      "3.0": 81,
+      "3.1": 69,
+      "3.2": 63,
+      "2.9": 45,
+      "2.8": 40,
+      "2.6": 23,
+      "2.7": 23,
+      "2.3": 20,
+      "2.5": 20,
+      "2.4": 19,
+      "1.0": 16,
+      "2.2": 14,
+      "2.0": 12,
+      "1.9": 11,
+      "2.1": 8,
+      "1.8": 8,
+      "1.7": 8,
+      "1.6": 4,
+      "1.4": 3,
+      "1.5": 3,
+      "1.2": 1,
+      "19.0": 1
+    }
+  },
+  "schema": {
+    "columns": [
+      "app_name",
+      "category",
+      "rating",
+      "review_count",
+      "size_mb",
+      "installs",
+      "app_type",
+      "price_usd",
+      "content_rating",
+      "genres",
+      "last_updated",
+      "current_version",
+      "android_version"
+    ],
+    "data_types": {
+      "app_name": "object",
+      "category": "object",
+      "rating": "float64",
+      "review_count": "float64",
+      "size_mb": "float64",
+      "installs": "int64",
+      "app_type": "object",
+      "price_usd": "float64",
+      "content_rating": "object",
+      "genres": "object",
+      "last_updated": "datetime64[ns]",
+      "current_version": "object",
+      "android_version": "object"
+    }
+  },
+  "conversion_stats": {
+    "reviews_converted": 10245,
+    "sizes_converted": 9145,
+    "installs_converted": 10825,
+    "prices_converted": 10841,
+    "dates_converted": 10840
+  }
+}

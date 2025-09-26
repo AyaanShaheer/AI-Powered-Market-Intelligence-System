@@ -1,0 +1,194 @@
+{
+  "phase2_execution": {
+    "timestamp": "2025-09-26T00:53:02.610404",
+    "google_play_apps": 9660,
+    "ios_apps": 638,
+    "total_unified_apps": 10298,
+    "apis_used": [
+      "Google Play Store (processed dataset)",
+      "iTunes Search API (FREE)"
+    ]
+  },
+  "api_integration_stats": {
+    "itunes_apps_fetched": 638,
+    "search_terms_used": 48,
+    "api_calls_made": 48
+  },
+  "data_schema": {
+    "columns": [
+      "app_id",
+      "app_name",
+      "platform",
+      "unified_category",
+      "original_category",
+      "rating",
+      "review_count",
+      "installs",
+      "size_mb",
+      "app_type",
+      "price_usd",
+      "content_rating",
+      "last_updated",
+      "genres",
+      "data_source",
+      "developer",
+      "version",
+      "min_os_version"
+    ],
+    "android_data_source": "Cleaned Google Play Store dataset from Phase 1",
+    "ios_data_source": "iTunes Search API (FREE) - Real data from Apple",
+    "category_mapping_applied": true
+  },
+  "market_insights": {
+    "dataset_overview": {
+      "total_apps": 10298,
+      "android_apps": "9660",
+      "ios_apps": "638",
+      "data_sources": {
+        "google_play": "9660",
+        "itunes": "638"
+      }
+    },
+    "platform_comparison": {
+      "avg_rating_android": 3.542774327122153,
+      "avg_rating_ios": 4.61735946708464,
+      "avg_reviews_android": 217020.83581780537,
+      "avg_reviews_ios": 1157744.382445141,
+      "avg_size_android_mb": 17.802771041585792,
+      "avg_size_ios_mb": 283.35154872403996
+    },
+    "category_analysis": {
+      "top_categories": {
+        "Family": 1933,
+        "Utilities": 1223,
+        "Games": 1043,
+        "Social": 760,
+        "Lifestyle": 653,
+        "Photo & Video": 511,
+        "Business": 463,
+        "Productivity": 417,
+        "Medical": 398,
+        "Finance": 383
+      },
+      "category_ratings": {
+        "1.9": 19.0,
+        "Book": 4.86,
+        "Business": 2.75,
+        "Creative": 4.15,
+        "Developer Tools": 3.15,
+        "Education": 3.65,
+        "Entertainment": 4.15,
+        "Family": 3.68,
+        "Finance": 3.72,
+        "Food & Drink": 3.8,
+        "Games": 4.09,
+        "Graphics & Design": 4.68,
+        "Health & Fitness": 3.76,
+        "Lifestyle": 3.38,
+        "Medical": 3.07,
+        "Music": 4.52,
+        "Navigation": 3.72,
+        "News": 3.47,
+        "Photo & Video": 3.9,
+        "Productivity": 3.51,
+        "Shopping": 3.92,
+        "Social": 3.43,
+        "Sports": 3.39,
+        "Travel": 3.67,
+        "Utilities": 3.5,
+        "Weather": 4.02
+      },
+      "category_distribution_android": {
+        "Family": 1933,
+        "Utilities": 1205,
+        "Games": 942,
+        "Social": 725,
+        "Lifestyle": 644,
+        "Photo & Video": 445,
+        "Business": 419,
+        "Medical": 395,
+        "Productivity": 374,
+        "Finance": 345
+      },
+      "category_distribution_ios": {
+        "Games": 101,
+        "Photo & Video": 66,
+        "Health & Fitness": 51,
+        "Business": 44,
+        "Productivity": 43,
+        "Travel": 39,
+        "Finance": 38,
+        "Food & Drink": 35,
+        "Social": 35,
+        "Shopping": 34
+      }
+    },
+    "pricing_analysis": {
+      "free_vs_paid_total": {
+        "Free": 9540,
+        "Paid": 756,
+        "nan": 1,
+        "0": 1
+      },
+      "free_vs_paid_android": {
+        "Free": 8904,
+        "Paid": 754,
+        "nan": 1,
+        "0": 1
+      },
+      "free_vs_paid_ios": {
+        "Free": 636,
+        "Paid": 2
+      },
+      "avg_price_android": 1.0971169772256728,
+      "avg_price_ios": 0.02347962382445141,
+      "expensive_apps": 73
+    },
+    "quality_insights": {
+      "high_rated_apps_4plus": "6898",
+      "high_rated_apps_45plus": "3096",
+      "apps_with_many_reviews": "3787",
+      "zero_rating_apps": "1466"
+    },
+    "market_opportunities": {
+      "underrated_categories": [
+        "Business",
+        "Developer Tools",
+        "Lifestyle",
+        "Medical",
+        "News",
+        "Social",
+        "Sports"
+      ],
+      "high_competition_categories": [
+        "Business",
+        "Education",
+        "Entertainment",
+        "Family",
+        "Finance",
+        "Food & Drink",
+        "Games",
+        "Health & Fitness",
+        "Lifestyle",
+        "Medical",
+        "Navigation",
+        "News",
+        "Photo & Video",
+        "Productivity",
+        "Shopping",
+        "Social",
+        "Sports",
+        "Travel",
+        "Utilities"
+      ],
+      "price_gaps": {}
+    }
+  },
+  "data_quality": {
+    "missing_ratings": 0,
+    "missing_reviews": 0,
+    "data_completeness_percent": 100.0,
+    "unique_apps": 10298,
+    "unique_categories": 26
+  }
+}
