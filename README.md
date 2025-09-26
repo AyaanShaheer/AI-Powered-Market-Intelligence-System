@@ -323,7 +323,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact & Support
 
 **Project Maintainer**: [Ayaan Shaheer](mailto:ayaan.shaheer.dev@gmail.com)
-**LinkedIn**:[(https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/ayaan-shaheer-74a087230/))
 **Portfolio**: [Portfolio](https://chatprofolio.vercel.app/profile/ayaanshaheer)
 
 ---
